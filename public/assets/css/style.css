@@ -1,0 +1,53 @@
+::-webkit-scrollbar {
+    width: 10px;
+    background: #053c69;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #053c69;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0e2338;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0e2338;
+}
+@import url(fontiran.css); /* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
+body {
+    font-family: IRANSans !important;
+    font-weight: 300;
+    direction: rtl;
+    color: #ffffff;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
+    font-family: IRANSans !important;
+}
+.active-svg svg{
+    color: #51B6ff;
+}
+.active-svg p{
+    color: #51B6ff;
+}
+.defult-svg{
+    color: #d9e3f0;
+}
+.hover-nav:hover  {
+    background: #112943 !important;
+}
+.hover-nav:hover svg {
+    color: #51B6ff !important;
+}
+.hover-nav:hover p {
+    color: #51B6ff !important;
+}
+.defult-svg,.active-svg{
+    transition: .5s all;
+}
